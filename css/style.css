@@ -10,6 +10,9 @@
     background-color: #333232;
     color: #ffffff;
   }
+  ul {
+    list-style: none;
+  }
 /*========== Typography ==========*/
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
