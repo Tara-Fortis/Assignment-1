@@ -31,22 +31,22 @@ p {
     font-style: normal;
 }
 /*========== Fieldset Styling ==========*/
-fieldset#purple {
+fieldset.purple {
     background-color: purple;
 }
 
-fieldset#blue {
+fieldset.blue {
     background-color: blue;
 }
 
-fieldset#green {
+fieldset.green {
     background-color: green;
 }
 
-fieldset#orange {
+fieldset.orange {
     background-color: orange;
 }
 
-fieldset#pink {
+fieldset.pink {
     background-color: hotpink;
 }
