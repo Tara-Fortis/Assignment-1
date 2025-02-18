@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See 'n say Story Maker</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>See 'n Say Story Maker</h1>
+    </header>
+    <main>
+        <h2>Let's practice building simple sentences!</h2>
+        <p class="story"></p>
+        <form>
+            <!-- no need for method or action because the form information will be displayed on this page-->
+            <fieldset class="purple">
+                <legend>Subject</legend>
+
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="The-turkey">
+                            The turkey
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="Mom">
+                            Mom
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="Dad">
+                            Dad
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="The-dog">
+                            The dog
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="My-teacher">
+                            My teacher
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="The-elephant">
+                            The elephant
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="subject" value="The-cat">
+                            The cat
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset class="blue">
+                <legend>Verb</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="verb" value="sat-on">
+                            sat on
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="verb" value="ate">
+                            ate
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="verb" value="danced-with">
+                            danced with
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="verb" value="saw">
+                            saw
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="verb" value="doesn't-like">
+                            doesn't like
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="verb" value="kissed">
+                            kissed
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset class="green">
+                <legend>Adjective</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="adjective" value="a-funny"> a funny
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="adjective" value="a-scary">a scary
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="adjective" value="a-goofy">
+                            a goofy
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="adjective" value="a-slimy">
+                            a slimy
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="adjective" value="a-barking">
+                            a barking
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="adjective" value="a-fat">
+                            a fat
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="orange">
+                <legend>Direct object</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="goat">
+                            goat
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="monkey">
+                            monkey
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="fish">
+                            fish
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="cow">
+                            cow
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="frog">
+                            frog
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="bug">
+                            bug
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="direct object" value="worm">
+                            worm
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset class="pink">
+                <legend>Indirect object</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="indirect object" value="on-the-moon">
+                            on the moon
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="indirect object" value="on-the-chair">
+                            on the chair
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="indirect object" value="in-my-spagetti">
+                            in my spagetti
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="indirect object" value="in-my-soup">
+                            in my soup
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="indirect object" value="on-the-grass">
+                            on the grass
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="indirect object" value="in-my-shoes">
+                            in my shoes
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
