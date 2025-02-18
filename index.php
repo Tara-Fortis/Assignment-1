@@ -14,7 +14,7 @@
         </header>
         <main>
             <h2>Let's practice building simple sentences!</h2>
-            <form action="story.html" method="get">
+            <form action="story.php" method="get">
                 <fieldset class="purple">
                     <legend>Subject</legend>
                     <ul>
